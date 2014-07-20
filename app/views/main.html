@@ -1,0 +1,10 @@
+<div class="" ng-init="init()">
+  <table class="table">
+    <th ng-repeat="h in headers">{{h.replace('gsx$','')}}</th>
+      <tbody>
+        <tr ng-repeat="row in rows">
+          <td ng-repeat="cell in row">{{cell}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
